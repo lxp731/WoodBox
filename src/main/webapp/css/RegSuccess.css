@@ -1,0 +1,41 @@
+body {
+    font-family: Roboto;
+    background-color: rgb(225, 89, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#NorthBar {
+    width: 100%;
+    height: 50px;
+    background-color: #0b132b;
+}
+
+#NorthBar p ,
+#content p {
+    line-height: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#content {
+    background-color: #0b132b;
+    width: 400px;
+    color: aliceblue;
+    padding: 40px;
+    box-shadow: 10px 10px 25px black;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    background-color: #2ecc71;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 22px;
+    color: white;
+}

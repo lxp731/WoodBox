@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>18001030108-刘晓鹏</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/circle.css">
+</head>
+<body>
+    <div id="main">
+
+        <div id="NorthBar">
+            <ol>
+                <li>
+                    <div class="menu">
+                        <img src="../resouce/hamburger.svg" alt="more">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="tital">
+                        <p>一个木函</p>
+                        <span>清露晨流，新桐初引，多少游春意。</span>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="search">
+                        <img src="../resouce/search.svg" alt="search">
+                    </div>
+                </li>
+            </ol>
+        </div>
+
+        <div class="content">
+            <div class="focus">
+                <ul>
+                    <li>
+                        <a href="https://www.mi.com/xiaomicivi2?spmref=mihomepage.mtl_632d5d74be07770001ef6d81.1">
+                            <img src="../resouce/xiaomiCIVI.png" alt="">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.mi.com/visual?spmref=MiShop_PC.mihomepage.mtl_62eff87a352df30001adc9a5.1">
+                            <img src="../resouce/REDMI.jpeg" alt="">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.mi.com/xiaomimixfold2?spmref=mihomepage.mtl_62f4e6c4f0c1310001b26187.1">
+                            <img src="../resouce/xiaomiMIX.png" alt="">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.mi.com/redminote12?spmref=MiShop_PC.mihomepage.mtl_635a8b3457645400014f772d.1">
+                            <img src="../resouce/xiaomiNOTE12.jpg" alt="">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.mi.com/xiaomicivi2?spmref=mihomepage.mtl_632d5d74be07770001ef6d81.1">
+                            <img src="../resouce/xiaomiCIVI.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <!-- 小圆点 -->
+                <ol class="point">
+                    <li class="current"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+            </div>
+
+            <div id="tab">
+                <h2 class="title">
+                    <img src="../resouce/logo-muhan.jpg" alt="">
+                    <span class="tab" onmouseover="changeTab(this)">音乐</span>
+                    <span onmouseover="changeTab(this)">影视</span>
+                    <span onmouseover="changeTab(this)">极客</span>
+                    <span onmouseover="changeTab(this)">编程</span>
+                </h2>
+                <!-- 关于音乐的部分 -->
+                <div>
+                    <ul class="option" id="music">
+                        <li>
+                            <a href="https://y.qq.com/n/ryqq/playlist/8660051333">
+                                <img src="../resouce/mchuayu.webp" alt="">
+                                <p>情歌往往都是深入人心的</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://y.qq.com/n/ryqq/playlist/8634954527">
+                                <img src="../resouce/mccountry.webp" alt="">
+                                <p>民谣里说的都是谁的故事</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://y.qq.com/n/ryqq/playlist/8636602818">
+                                <img src="../resouce/mclive.webp" alt="">
+                                <p>live盛宴,看荧光棒满场点亮</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://y.qq.com/n/ryqq/playlist/8018736558">
+                                <img src="../resouce/mcstudy.webp" alt="">
+                                <p>学习很枯燥，来点轻音充实一下吧</p>
+                            </a>
+                        </li>
+                    </ul>                    
+                </div>
+                <div>
+                    <ul class="option" id="movie">
+                        <li>
+                            <a href="https://www.iqiyi.com/v_19rr7plcfw.html?vfrm=pcw_dianying&vfrmblk=711219_dianying_fyb&vfrmrst=711219_dianying_fyb_float_video_area2">
+                                <img src="../resouce/mvbabai.webp" alt="">
+                                <p>八佰</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.iqiyi.com/v_1oqcdwzq2hs.html">
+                                <img src="../resouce/mvguitu.webp" alt="">
+                                <p>万里归途(预告)</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.iqiyi.com/v_1wxrc961u0o.html?vfrm=pcw_dianying&vfrmblk=711219_dianying_fyb&vfrmrst=711219_dianying_fyb_float_video_area4">
+                                <img src="../resouce/mvjingangchuan.webp" alt="">
+                                <p>金刚川</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.iqiyi.com/v_19rrcuke28.html?vfrm=pcw_dianying&vfrmblk=711219_dianying_fyb&vfrmrst=711219_dianying_fyb_float_video_area3">
+                                <img src="../resouce/mvnezha.webp" alt="">
+                                <p>哪吒之魔童降世</p>
+                            </a>
+                        </li>
+                    </ul> 
+                </div>
+                <div>
+                    <ul class="option" id="geek">
+                        <li>
+                            <a href="https://github.com/">
+                                <img src="../resouce/github.svg" alt="">
+                                <p>github</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://gitee.com/dashboard">
+                                <img src="../resouce/gitee.svg" alt="">
+                                <p>gitee</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.csdn.net/">
+                                <img src="../resouce/csdn.svg" alt="">
+                                <p>csdn</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.ghxi.com/">
+                                <img src="../resouce/guohe.svg" alt="">
+                                <p>果核剥壳</p>
+                            </a>
+                        </li>
+                    </ul>   
+                </div>
+                <div>内容四</div>
+            </div>
+        </div>
+
+        <div id="SouthBar">
+            <ul id="nav">
+                <li>
+                    <a href="./main.html">
+                        <img src="../resouce/main.svg" alt="">
+                        <p>主页</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./cricle.html">
+                        <img src="../resouce/friends.svg" alt="">
+                        <p>圈子</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../resouce/plusign.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="./online.html">
+                        <img src="../resouce/message.svg" alt="">
+                        <p>在线</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="mine.html">
+                        <img src="../resouce/mine.svg" alt="">
+                        <p>我的</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="../js/Turnjpg.js"></script>
+    <script type="text/javascript" src="../js/tab.js"></script>
+</body>
+</html>

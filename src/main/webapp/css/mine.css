@@ -1,0 +1,177 @@
+/* 加入会员的内容 */
+.VIP { 
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgb(252,232,117);
+}
+
+.VIP img {
+    width: 30px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.VIP .vip {
+    font-weight: bold;
+    position: relative;
+    left: 70px;
+    top: -10px;
+}
+
+.VIP span {
+    font-size: 10px;
+    position: relative;
+    left: 70px;
+}
+
+.VIP .span {
+    font-size: 10px;
+    position: relative;
+    left: 70px;
+}
+
+.setting p {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+}
+
+/* 设定的内容 */
+.bind {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+}
+
+.bind ul li {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.bind ul li img {
+    width: 25px;
+}
+
+/* 为了使右对齐使span标签以块显示，之后会
+   向下偏移一行，一行的高度是30px,所以top=—30
+    */
+/* .valueA{
+    display: block;
+    position: relative;
+    top: -30px;
+    right: 8px;
+    text-align: right;
+} */
+
+.valueB {
+    height: 22px;
+    display: block;
+    position: relative;
+    top: -31px;
+    right: -160px;
+    text-align: right;
+    border-style: hidden;
+    opacity: 10;
+    background-color: rgb(245, 245, 245);
+}
+
+/* .valueB:hover {
+    background-color: rgb(255,103,0);
+} */
+
+/* 社交账号的内容 */
+.contact p {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+    font-weight: bold;
+}
+
+.contact ul {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+}
+
+.contact ul li {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.contact ul li img {
+    width: 25px;
+}
+
+/* “安全”的内容 */
+.security p {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+    font-weight: bold;
+}
+
+.security ul {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+}
+
+.security ul li {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.security ul li img {
+    width: 25px;
+}
+
+
+/* 退出登录的导航条 */
+.quit {
+    width: 70%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    font-weight: bold;
+    background-color: rgb(245, 245, 245);
+}
+
+.quit a p {
+    color: red;
+}
+
+li:hover {
+    background-color: rgb(255,103,0);
+    border-radius: 10px;
+}
+
+.quit a p:hover {
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(255,103,0);
+}
+

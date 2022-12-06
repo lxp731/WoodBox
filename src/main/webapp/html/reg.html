@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>18001030108-刘晓鹏</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/reg.css">
+</head>
+
+<body>
+	<div id="main">
+		<form action="../RegServlet" method="post" id="fm" name="fm" onsubmit="return checkform()">
+			<div>
+				<input type="text" id="user" name="username" placeholder="Username" class="input">
+				<span class="error">用户名应为3-16位</span>
+			</div>
+
+			<div>
+				<input type="password" id="pwd" name="userpass" placeholder="Password" class="input">
+				<span class="error">密码应为3-16位</span>
+			</div>
+
+			<div>
+				<input type="password" id="pwd2" name="userpasses" placeholder="Password ACK" class="input">
+				<span class="error">两次密码应为相同</span>
+			</div>
+
+			<div>
+				<input type="submit" value="提交">
+				<input type="reset" value="重置">
+			</div>
+			<a href="../html/login.html">已有账号，点击登录</a>
+		</form>
+	</div>
+	<script src="../js/FormCheck.js"></script>
+</body>
+
+</html>

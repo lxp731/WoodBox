@@ -1,0 +1,23 @@
+img {
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+
+#content {
+    width: 90px;
+    height: 40px;
+    background-color: green;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border-radius: 50px;
+}
+
+p {
+    color: white;
+    font-family: "微软雅黑";
+    position: relative;
+    line-height: 40px;
+    text-align: center;
+}

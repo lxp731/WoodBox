@@ -1,0 +1,71 @@
+body {
+    font-family: Roboto;
+    background-color: rgb(225, 89, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fm {
+    background-color: #0b132b;
+    width: 400px;
+    color: aliceblue;
+    padding: 40px;
+    box-shadow: 10px 10px 25px black;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+#fm input {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background: none;
+    padding: 22px;
+    font-size: 15px;
+    border-radius: 22px;
+    outline: none;
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#fm input[ type="text"],
+#fm input[type="password"] {
+    border: 2px solid #3498db;
+    width: 220px;
+}
+
+#fm input[ type="text"]:focus,
+#fm input[type="password"]:focus {
+    border-color: #2ecc71;
+    width: 280px;
+    transition: 0.5s;
+}
+
+#fm input[type="submit"],
+#fm input[type="reset"] {
+    width: 150px;
+    border: 2px solid #2ecc71;
+    cursor: pointer;
+}
+
+#fm input[type="submit"]:hover,
+#fm input[type="reset"]:hover {
+    background-color: #2ecc71;
+    transition: 0.7s;
+
+}
+
+.error {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #0f0;
+    display: none;
+}

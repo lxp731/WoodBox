@@ -1,0 +1,32 @@
+/* 首页内容区 */
+body {
+    background-color: rgb(85, 88, 90);
+}
+
+#content {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#content ul li {
+    width: 50%;
+    float: left;
+    margin: 20px auto;
+}
+
+#content ul li a {
+    width: 120px;
+    height: 30px;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: rgb(85, 88, 90);
+    /* border-radius: 20%; */
+    text-align: center;
+    line-height: 30px;
+}
+
+#content ul a:hover {
+    background-color: rgb(255,103,0);
+}

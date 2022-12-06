@@ -1,0 +1,124 @@
+/* 轮播图样式 */
+.focus {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.focus img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.focus ul {
+    width: 500%;
+    height: auto;
+    overflow: hidden;
+    margin-left: -100%;
+}
+
+.focus ul li {
+    float: left;
+    width: 20%;
+    height: 100%;
+    transition: all .3;
+}
+
+.focus ol {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.point li {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(165, 230, 80);
+    list-style: none;
+    border-radius: 50%;
+}
+
+li.current {
+    width: 15px;
+    border-radius: 2px;
+}
+
+/* tab选项卡样式 */
+.title img {
+    width: 56px;
+    position: relative;
+    left: 5px;
+    top: -1px;
+    /* border-radius: 30px; */
+}
+
+.title {
+    width: 100%;
+    line-height: 56px;
+    color: black;
+    display: flex;
+}
+
+.title span {
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    flex: 1;
+}
+
+.tab {
+    width: 100%;
+    height: 40%;
+    color: red;
+    cursor: pointer;
+}
+
+#tab>div {
+    width: 100%;
+    border: 1px solid gray;
+    display: none;
+    text-align: center;
+    line-height: 200px;
+    font-family: "微软雅黑";
+    font-size: 24px;
+}
+
+#tab .content {
+    height: 200px;
+    display: block;
+}
+
+/* 选项的部分 */
+.option {
+    width: 100%;
+    height: 200px;
+    margin: 35px auto;
+}
+
+.option li {
+    float: left;
+    width: 25%;
+}
+
+.option p {
+    font-size: 8px;
+    color: black;
+    line-height: 15px;
+    padding: 6px 12px;
+}
+.option li img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+#movie {
+    margin: 25px auto;
+}
+
+#geek li img{
+    width: 80px;
+    display: block;
+    margin: 10px auto;
+}
